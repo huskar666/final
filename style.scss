@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'adaptive';
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1136px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 28px;
+    .logo{
+      height: 24px;  
+    }
+    
+    #menu__toggle{
+        display: none;
+    }
+    .hamburger-menu{
+        width: 100%;
+        max-width: 735px;
+    }
+    .menu__items{
+        display: flex;
+        justify-content: space-between;
+
+        & .menu__items--svgs{
+            display: flex;
+            justify-content: space-between;
+            max-width: 66px;
+            width: 100%;
+        }
+      
+        .menu__items--box{
+            max-width: 532px;
+            width: 100%;
+
+            & .menu__items--box--item{
+                text-decoration: none;
+                font-family: Montserrat;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 16px;
+                letter-spacing: -0.02em;
+                text-align: left;
+                color: #111111;
+
+           }
+           & .menu__items--box--item:hover{
+                color: #FD9222;
+                transition-duration: .25s;
+           }
+        }
+        .menu__items--box li{
+            display: inline;
+        }
+    }
+    
+}

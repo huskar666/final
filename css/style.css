@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1136px;
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 28px;
+}
+header .logo {
+  height: 24px;
+}
+header #menu__toggle {
+  display: none;
+}
+header .hamburger-menu {
+  width: 100%;
+  max-width: 735px;
+}
+header .menu__items {
+  display: flex;
+  justify-content: space-between;
+}
+header .menu__items .menu__items--svgs {
+  display: flex;
+  justify-content: space-between;
+  max-width: 66px;
+  width: 100%;
+}
+header .menu__items .menu__items--box {
+  max-width: 532px;
+  width: 100%;
+}
+header .menu__items .menu__items--box .menu__items--box--item {
+  text-decoration: none;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #111111;
+}
+header .menu__items .menu__items--box .menu__items--box--item:hover {
+  color: #FD9222;
+  transition-duration: 0.25s;
+}
+header .menu__items .menu__items--box li {
+  display: inline;
+}
