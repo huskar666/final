@@ -38,10 +38,9 @@ header{
         }
       
         .menu__items--box{
-            max-width: 532px;
             width: 100%;
 
-            & .menu__items--box--item{
+            & .menu__items--box--item1{
                 text-decoration: none;
                 font-family: Montserrat;
                 font-size: 14px;
@@ -50,13 +49,73 @@ header{
                 letter-spacing: -0.02em;
                 text-align: left;
                 color: #111111;
-
+                padding-right: 24px;
            }
-           & .menu__items--box--item:hover{
+           & .menu__items--box--item1:hover{
                 color: #FD9222;
                 transition-duration: .25s;
            }
+           & .menu__items--box--item2{
+            text-decoration: none;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 16px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            color: #111111;
+            padding-right: 24px;
+            }
+            & .menu__items--box--item2:hover{
+                    color: #FD9222;
+                    transition-duration: .25s;
+            }
+            & .menu__items--box--item3{
+                text-decoration: none;
+                font-family: Montserrat;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 16px;
+                letter-spacing: -0.02em;
+                text-align: left;
+                color: #111111;
+                padding-right: 24px;
+            }
+            & .menu__items--box--item3:hover{
+                    color: #FD9222;
+                    transition-duration: .25s;
+            }
+            & .menu__items--box--item4{
+                text-decoration: none;
+                font-family: Montserrat;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 16px;
+                letter-spacing: -0.02em;
+                text-align: left;
+                color: #111111;
+                padding-right: 24px;
+           }
+           & .menu__items--box--item4:hover{
+                color: #FD9222;
+                transition-duration: .25s;
+           }
+           & .menu__items--box--item5{
+            text-decoration: none;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 16px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            color: #111111;
+            }
+            & .menu__items--box--item5:hover{
+                    color: #FD9222;
+                    transition-duration: .25s;
+            }
         }
+        
         .menu__items--box li{
             display: inline;
         }
