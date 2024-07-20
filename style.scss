@@ -8,117 +8,106 @@
 
 
 header{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1136px;
-    margin: 0 auto;
-    align-items: center;
-    margin-top: 28px;
-    .logo{
-      height: 24px;  
-    }
-    
-    #menu__toggle{
-        display: none;
-    }
-    .hamburger-menu{
-        width: 100%;
-        max-width: 735px;
-    }
-    .menu__items{
-        display: flex;
-        justify-content: space-between;
 
-        & .menu__items--svgs{
+
+}
+main{
+    .background{
+        background: url('../img/background.png');
+        max-width: 1136px;
+        margin: 0 auto;
+        border-radius: 30px;
+        z-index: 2;
+        & .background__rectangle{
+            background-color: #D9D9D9;
+            width: 100%;
+            height: 119px;
+            margin-top: 208px;
+            z-index: 1;
+            display: none;
+        }
+        & .backround__container{
+            width: 100%;
+            max-width: 1056px;
             display: flex;
             justify-content: space-between;
-            max-width: 66px;
-            width: 100%;
-        }
-      
-        .menu__items--box{
-            width: 100%;
+            margin: 0 auto;
+            & .background__container--box{
+                margin-top: 381px;
+                & .background__container--box--text{
+                    font-family: Montserrat;
+                    font-size: 28px;
+                    font-weight: 500;
+                    line-height: 34px;
+                    letter-spacing: -0.03em;
+                    text-align: left;
+                    color: white;
+                    max-width: 484px;
+                }
+                & .background__container--box--buttons{
+                    padding-top: 30px;
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+                    max-width: 341px;
+                    padding-bottom: 40px;
+                    & .background__container--box--buttons--button1{
+                        font-family: Montserrat;
+                        font-size: 14px;
+                        font-weight: 600;
+                        line-height: 17.07px;
+                        text-align: left;
+                        padding-top: 14px;
+                        padding-bottom: 14px;
+                        padding-left: 40px;
+                        padding-right: 40px;
+                        background-color: #FD9222;
+                        border: none;
+                        border-radius: 100px;
+                        color: white;
+                    }
+                    & .background__container--box--buttons--button2{
+                        font-family: Montserrat;
+                        font-size: 14px;
+                        font-weight: 600;
+                        line-height: 17.07px;
+                        text-align: left;
+                        padding-top: 14px;
+                        padding-bottom: 14px;
+                        padding-left: 40px;
+                        padding-right: 40px;
+                        background-color: rgba(28,28,28,0);
+                        border: 1px solid white;
+                        border-radius: 100px;
+                        color: white;
+                    }
+                }
+            }
+            & .background__container--scroll{
+                color: white;
+                font-family: Montserrat;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 18px;
+                letter-spacing: -0.03em;
+                text-align: left;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                max-width: 130px;
+                width: 100%;
+                margin-top: 475px;
+                & .background__container--scroll--button{
+                    width: 38px;
+                    height: 38px;
+                    border-radius: 90px;
+                    background-color: white;
+                    border: none;
 
-            & .menu__items--box--item1{
-                text-decoration: none;
-                font-family: Montserrat;
-                font-size: 14px;
-                font-weight: 500;
-                line-height: 16px;
-                letter-spacing: -0.02em;
-                text-align: left;
-                color: #111111;
-                padding-right: 24px;
-           }
-           & .menu__items--box--item1:hover{
-                color: #FD9222;
-                transition-duration: .25s;
-           }
-           & .menu__items--box--item2{
-            text-decoration: none;
-            font-family: Montserrat;
-            font-size: 14px;
-            font-weight: 500;
-            line-height: 16px;
-            letter-spacing: -0.02em;
-            text-align: left;
-            color: #111111;
-            padding-right: 24px;
-            }
-            & .menu__items--box--item2:hover{
-                    color: #FD9222;
-                    transition-duration: .25s;
-            }
-            & .menu__items--box--item3{
-                text-decoration: none;
-                font-family: Montserrat;
-                font-size: 14px;
-                font-weight: 500;
-                line-height: 16px;
-                letter-spacing: -0.02em;
-                text-align: left;
-                color: #111111;
-                padding-right: 24px;
-            }
-            & .menu__items--box--item3:hover{
-                    color: #FD9222;
-                    transition-duration: .25s;
-            }
-            & .menu__items--box--item4{
-                text-decoration: none;
-                font-family: Montserrat;
-                font-size: 14px;
-                font-weight: 500;
-                line-height: 16px;
-                letter-spacing: -0.02em;
-                text-align: left;
-                color: #111111;
-                padding-right: 24px;
-           }
-           & .menu__items--box--item4:hover{
-                color: #FD9222;
-                transition-duration: .25s;
-           }
-           & .menu__items--box--item5{
-            text-decoration: none;
-            font-family: Montserrat;
-            font-size: 14px;
-            font-weight: 500;
-            line-height: 16px;
-            letter-spacing: -0.02em;
-            text-align: left;
-            color: #111111;
-            }
-            & .menu__items--box--item5:hover{
-                    color: #FD9222;
-                    transition-duration: .25s;
+                }
             }
         }
         
-        .menu__items--box li{
-            display: inline;
-        }
     }
     
 }
