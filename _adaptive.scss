@@ -1,2 +1,49 @@
 @media (max-width: 1300px){
+    main{
+        .background{
+            background: url('../img/background-tablet.png') !important;
+            max-width: 704px !important;
+            & .backround__container{
+                max-width: 624px !important;
+                & .background__container--box{
+                    margin-top: 671px !important;
+                }
+                & .background__container--scroll{
+                    margin-top: 765px !important;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 768px){
+    main{
+        .background{
+            background: url('../img/background-phone.png') !important;
+            max-width: 335px !important;
+            & .backround__container{
+                max-width: 295px !important;
+                & .background__container--box{
+                    margin-top: 395px !important;
+
+                    & .background__container--box--text{
+                        font-size: 20px !important;
+                        line-height: 24px !important;
+                    }
+                    & .background__container--box--buttons{
+                        max-width: 299px !important;
+                        & .background__container--box--buttons--button1{
+                            padding-top: 12px !important;
+                            padding-bottom: 12px !important;
+                            padding-left: 28px !important;
+                            padding-right: 28px !important;
+                        }
+                    }
+                }
+                & .background__container--scroll{
+                    margin-top: 765px !important;
+                    display: none !important;
+                }
+            }
+        }
+    }
 }

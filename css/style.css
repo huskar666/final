@@ -1,23 +1,66 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@media (max-width: 1300px) {
+  main .background {
+    background: url("../img/background-tablet.png") !important;
+    max-width: 704px !important;
+  }
+  main .background .backround__container {
+    max-width: 624px !important;
+  }
+  main .background .backround__container .background__container--box {
+    margin-top: 671px !important;
+  }
+  main .background .backround__container .background__container--scroll {
+    margin-top: 765px !important;
+  }
+}
+@media (max-width: 768px) {
+  main .background {
+    background: url("../img/background-phone.png") !important;
+    max-width: 335px !important;
+  }
+  main .background .backround__container {
+    max-width: 295px !important;
+  }
+  main .background .backround__container .background__container--box {
+    margin-top: 395px !important;
+  }
+  main .background .backround__container .background__container--box .background__container--box--text {
+    font-size: 20px !important;
+    line-height: 24px !important;
+  }
+  main .background .backround__container .background__container--box .background__container--box--buttons {
+    max-width: 299px !important;
+  }
+  main .background .backround__container .background__container--box .background__container--box--buttons .background__container--box--buttons--button1 {
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    padding-left: 28px !important;
+    padding-right: 28px !important;
+  }
+  main .background .backround__container .background__container--scroll {
+    margin-top: 765px !important;
+    display: none !important;
+  }
+}
 * {
   padding: 0;
   margin: 0;
 }
 
+main .background__rectangle {
+  background-color: #D9D9D9;
+  width: 1136px;
+  height: 119px;
+  position: fixed;
+  left: 384px;
+  top: 208px;
+}
 main .background {
   background: url("../img/background.png");
   max-width: 1136px;
   margin: 0 auto;
   border-radius: 30px;
-  z-index: 2;
-}
-main .background .background__rectangle {
-  background-color: #D9D9D9;
-  width: 100%;
-  height: 119px;
-  margin-top: 208px;
-  z-index: 1;
-  display: none;
 }
 main .background .backround__container {
   width: 100%;
@@ -98,4 +141,53 @@ main .background .backround__container .background__container--scroll .backgroun
   border-radius: 90px;
   background-color: white;
   border: none;
+}
+main .prices {
+  width: 100%;
+  background-color: #1E1823;
+  margin-top: 72px;
+}
+main .prices .prices__container {
+  max-width: 1110px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+main .prices .prices__container .prices__container--box {
+  max-width: 308px;
+}
+main .prices .prices__container .prices__container--box .prices__container--box--title {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.94px;
+  text-align: left;
+  color: white;
+  padding-top: 22px;
+  padding-bottom: 18px;
+}
+main .prices .prices__container .prices__container--box .prices__container--box--text {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.07px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.6980392157);
+}
+
+a {
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+
+a:hover {
+  background-size: 100% 2px;
 }
