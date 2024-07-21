@@ -6,6 +6,9 @@
     margin: 0;
 }
 
+body {
+    overflow-x: hidden;
+}
 
 header{
 
@@ -46,6 +49,114 @@ main{
                     color: white;
                     max-width: 484px;
                 }
+                .modal1{
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    background-color: #FAFAFA;
+                    opacity: 1;
+                    border-radius: 10px;
+                    & .modal1__cards{
+                        max-width: 513px;
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        margin: 0 auto;
+                        padding-top: 32px;
+                        & .modal1__cards--card{
+                            max-width: 160px;
+                            border: 1px solid #1111111A;
+                            border-radius: 15px;
+                            display: flex;
+                            flex-direction: column;
+                            background-color: #FFFFFF;
+                            & .modal1__cards--card--photo{
+                                margin: 0 auto;
+                                padding-top: 24px;
+                                padding-left: 20px;
+                                padding-right: 20px;
+                                padding-bottom: 14px;
+                            }
+                            & .modal1__cards--card--button{
+                                margin: 0 auto;
+                                padding-top: 8px;
+                                padding-bottom: 8px;
+                                padding-left: 29px;
+                                padding-right: 29px;
+                                border-radius: 100px;
+                                border: 1px solid #1111111A;
+                                background-color: #FAFAFA;
+                                font-family: Montserrat;
+                                font-size: 14px;
+                                font-weight: 600;
+                                line-height: 17.07px;
+                                text-align: left;
+                                color: #111111;
+                                margin-bottom: 18px;
+                            }
+                        }
+                    }
+                    & .modal1__titles{
+                        display: flex;
+                        justify-content: space-between;
+                        max-width: 122px;
+                        margin: 0 auto;
+                        padding-top: 48px;
+                        & .modal1__titles--title1{
+                            font-family: Montserrat;
+                            font-size: 24px;
+                            font-weight: 600;
+                            line-height: 28px;
+                            letter-spacing: -0.03em;
+                            text-align: center;
+                            color: #FD9222;
+                        }
+                        & .modal1__titles--title2{
+                            font-family: Montserrat;
+                            font-size: 24px;
+                            font-weight: 600;
+                            line-height: 28px;
+                            letter-spacing: -0.03em;
+                            text-align: center;
+                            color: #1E1823; 
+                        }
+                    }
+                    & .modal1__container--button{
+                        padding-top: 14px;
+                        padding-bottom: 14px;
+                        padding-left: 40px;
+                        padding-right: 40px;
+                        background-color: #FD9222;
+                        border: none;
+                        border-radius: 100px;
+                        font-family: Montserrat;
+                        font-size: 14px;
+                        font-weight: 600;
+                        line-height: 17.07px;
+                        text-align: left;
+                        color: white;
+                        margin-left: 55px;
+                        margin-top: 18px;
+                    }
+                    
+                }
+
+
+                .is-hidden{
+                    opacity: 0;
+                    pointer-events: none;
+                }
+                .modal{
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                     background-color: white;
+                     padding: 10px;
+                    min-width: 609px;
+                     transform: translate(-50%, -50%);
+                     border-radius: 15px;
+                }
                 & .background__container--box--buttons{
                     padding-top: 30px;
                     display: flex;
@@ -53,6 +164,9 @@ main{
                     width: 100%;
                     max-width: 341px;
                     padding-bottom: 40px;
+                 
+                
+                    
                     & .background__container--box--buttons--button1{
                         font-family: Montserrat;
                         font-size: 14px;
@@ -129,10 +243,10 @@ main{
                 height: 124px;
                 margin-top: 60px;
             }
-            & .prices__container--box{
+            & .prices__container--box1{
                 max-width: 326px;
                
-                & .prices__container--box--title{
+                & .prices__container--box1--title{
                     font-family: Montserrat;
                     font-size: 18px;
                     font-weight: 600;
@@ -142,7 +256,55 @@ main{
                     padding-top: 22px;
                     padding-bottom: 18px;
                 }
-                & .prices__container--box--text{
+                & .prices__container--box1--text{
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 17.07px;
+                    letter-spacing: -0.02em;
+                    text-align: left;
+                    color: #FFFFFFB2;
+                    width: 308px;
+                }
+            }
+            & .prices__container--box2{
+                max-width: 326px;
+               
+                & .prices__container--box2--title{
+                    font-family: Montserrat;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 21.94px;
+                    text-align: left;
+                    color: white;
+                    padding-top: 22px;
+                    padding-bottom: 18px;
+                }
+                & .prices__container--box2--text{
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 17.07px;
+                    letter-spacing: -0.02em;
+                    text-align: left;
+                    color: #FFFFFFB2;
+                    width: 308px;
+                }
+            }
+            & .prices__container--box3{
+                max-width: 326px;
+               
+                & .prices__container--box3--title{
+                    font-family: Montserrat;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 21.94px;
+                    text-align: left;
+                    color: white;
+                    padding-top: 22px;
+                    padding-bottom: 18px;
+                }
+                & .prices__container--box3--text{
                     font-family: Montserrat;
                     font-size: 14px;
                     font-weight: 400;
