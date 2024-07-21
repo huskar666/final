@@ -50,13 +50,206 @@ main{
                     max-width: 484px;
                 }
                 .modal1{
-                    position: fixed;
-                    top: 0;
-                    left: 0;
                     width: 100%;
                     background-color: #FAFAFA;
                     opacity: 1;
                     border-radius: 10px;
+
+                    & .modal1-krestik{
+                        margin-left: 557px;
+                        margin-top: 10px;
+                    }
+                    & .modal1__container{
+                        max-width: 513px;
+                        margin: 0 auto;
+
+                        & .modal1__container--form1{
+                            margin-top: 40px;
+                            & .modal1__container--names{
+                                display: flex;
+                                justify-content: space-between;
+                                margin-top: 8px;
+                                
+                                & .modal1__container--names--form1{
+                                    padding-top: 22px;
+                                    padding-bottom: 22px;
+                                    padding-left: 24px;
+                                    border: 1.5px solid #1111110D;
+                                    border-radius: 13px;
+                                    font-family: Montserrat;
+                                    color: #4040404D;
+                                    font-size: 18px;
+                                    font-weight: 400;
+                                    line-height: 21.94px;
+                                    letter-spacing: -0.02em;
+                                    text-align: left;
+                                }
+                            }
+                           & .modal1__container--form1--text1{
+                                font-family: Montserrat;
+                                font-size: 14px;
+                                font-weight: 500;
+                                line-height: 18px;
+                                letter-spacing: -0.02em;
+                                text-align: left;
+                                color: #000000;
+                           }
+                        }
+                        & .modal1__container--form2{
+                            margin-top: 18px;
+                            
+                            & .modal1__container--form2--text2{
+                                font-family: Montserrat;
+                                font-size: 14px;
+                                font-weight: 500;
+                                line-height: 18px;
+                                letter-spacing: -0.02em;
+                                text-align: left;
+                                color: #000000;
+                           }
+                                
+                           & .modal1__container--form2--form2{
+                            padding-top: 22px;
+                            padding-bottom: 22px;
+                            padding-left: 24px;
+                            padding-right: 273px;
+                            border: 1.5px solid #1111110D;
+                            border-radius: 13px;
+                            font-family: Montserrat;
+                            color: #4040404D;
+                            font-size: 18px;
+                            font-weight: 400;
+                            line-height: 21.94px;
+                            letter-spacing: -0.02em;
+                            text-align: left;
+                            margin-top: 8px;
+                        }
+                        }
+                        & .modal1__container--form3{
+                            margin-top: 18px;
+
+                            & .modal1__container--form3--input{
+                                display: flex;
+                                flex-direction: row;
+                                margin-top: 8px;
+                                align-items: center;
+                                max-width: 513px;
+                                background-color: white;
+                                border: 1.5px solid #1111110D;
+                                border-radius: 13px;
+                                padding-left: 24px;
+                                padding-top: 22px;
+                                padding-bottom: 22px;
+                                & .modal1__container--form3--input--form3{ 
+                                    font-family: Montserrat;
+                                    font-size: 18px;
+                                    font-weight: 400;
+                                    line-height: 21.94px;
+                                    letter-spacing: -0.02em;
+                                    text-align: left;
+                                    color: #4040404D;
+                                    border: none;
+                                    border-left: 1.5px solid #1111110D;
+                                    outline: none;
+                                    padding-left: 25px;
+                                }
+        
+                                & .modal1__container--form3--input--span{
+                                    font-family: Montserrat;
+                                    font-size: 18px;
+                                    font-weight: 500;
+                                    line-height: 21.94px;
+                                    letter-spacing: -0.02em;
+                                    text-align: left;
+                                    color: #000000;
+                                    padding-left: 18px;
+                                    padding-right: 32px;
+                                }
+                            }
+                            & .modal1__container--form3--text3{
+                                font-family: Montserrat;
+                                font-size: 14px;
+                                font-weight: 500;
+                                line-height: 18px;
+                                letter-spacing: -0.02em;
+                                text-align: left;
+                                color: #000000;
+
+                            }
+                        }
+                        & .modal1__container--form4{
+                            margin-top: 18px;
+
+                            & .modal1__container--form4--text4{
+                                font-family: Montserrat;
+                                font-size: 14px;
+                                font-weight: 500;
+                                line-height: 18px;
+                                letter-spacing: -0.02em;
+                                text-align: left;
+                                color: #000000;
+                                }
+                            & .modal1__container--form4--input{
+                                margin-top: 8px;
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                max-width: 513px;
+                                border: 1.5px solid #1111110D;
+                                background-color: white;
+                                padding-left: 24px;
+                                padding-top: 22px;
+                                padding-bottom: 22px;
+                                border-radius: 13px;
+
+                                & .modal1__container--form4--input--form4{
+                                    outline: none;
+                                    border: none;
+                                    font-family: Montserrat;
+                                    font-size: 18px;
+                                    font-weight: 400;
+                                    line-height: 21.94px;
+                                    letter-spacing: -0.02em;
+                                    text-align: left;
+                                    color: #4040404D;
+
+                                }
+                                & .modal1__container--form4--input--svg{
+                                    padding-left: 215px;
+                                }
+                            }
+                        }
+
+                        & .modal1__container--form5{
+                            margin-top: 18px;
+
+                            & .modal1__container--form5--text5{
+                                font-family: Montserrat;
+                                font-size: 14px;
+                                font-weight: 500;
+                                line-height: 18px;
+                                letter-spacing: -0.02em;
+                                text-align: left;
+                                color: #000000;
+                            }
+                            & .modal1__container--form5--input--form5{
+                                margin-top: 8px;
+                                border: 1.5px solid #1111110D;
+                                padding-left: 24px;
+                                padding-top: 22px;
+                                padding-bottom: 93px;
+                                padding-right: 272px;
+                                font-family: Montserrat;
+                                font-size: 18px;
+                                font-weight: 400;
+                                line-height: 21.94px;
+                                letter-spacing: -0.02em;
+                                text-align: left;
+                                color: #4040404D;
+                                border-radius: 13px;
+                            }
+                        }
+                    }
                     & .modal1__cards{
                         max-width: 513px;
                         width: 100%;
@@ -64,9 +257,10 @@ main{
                         justify-content: space-between;
                         margin: 0 auto;
                         padding-top: 32px;
+
                         & .modal1__cards--card{
                             max-width: 160px;
-                            border: 1px solid #1111111A;
+                            border: 1.5px solid #1111111A;
                             border-radius: 15px;
                             display: flex;
                             flex-direction: column;
@@ -102,7 +296,7 @@ main{
                         justify-content: space-between;
                         max-width: 122px;
                         margin: 0 auto;
-                        padding-top: 48px;
+                        
                         & .modal1__titles--title1{
                             font-family: Montserrat;
                             font-size: 24px;
@@ -136,8 +330,8 @@ main{
                         line-height: 17.07px;
                         text-align: left;
                         color: white;
-                        margin-left: 55px;
                         margin-top: 18px;
+                        margin-bottom: 48px;
                     }
                     
                 }
@@ -293,7 +487,6 @@ main{
             }
             & .prices__container--box3{
                 max-width: 326px;
-               
                 & .prices__container--box3--title{
                     font-family: Montserrat;
                     font-size: 18px;

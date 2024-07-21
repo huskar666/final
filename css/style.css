@@ -117,13 +117,193 @@ main .background .backround__container .background__container--box .background__
   max-width: 484px;
 }
 main .background .backround__container .background__container--box .modal1 {
-  position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
   background-color: #FAFAFA;
   opacity: 1;
   border-radius: 10px;
+}
+main .background .backround__container .background__container--box .modal1 .modal1-krestik {
+  margin-left: 557px;
+  margin-top: 10px;
+}
+main .background .backround__container .background__container--box .modal1 .modal1__container {
+  max-width: 513px;
+  margin: 0 auto;
+}
+main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form1 {
+  margin-top: 40px;
+}
+main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form1 .modal1__container--names {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form1 .modal1__container--names .modal1__container--names--form1 {
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-left: 24px;
+  border: 1.5px solid rgba(17, 17, 17, 0.0509803922);
+  border-radius: 13px;
+  font-family: Montserrat;
+  color: rgba(64, 64, 64, 0.3019607843);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.94px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form1 .modal1__container--form1--text1 {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #000000;
+}
+main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form2 {
+  margin-top: 18px;
+}
+main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form2 .modal1__container--form2--text2 {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #000000;
+}
+main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form2 .modal1__container--form2--form2 {
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-left: 24px;
+  padding-right: 273px;
+  border: 1.5px solid rgba(17, 17, 17, 0.0509803922);
+  border-radius: 13px;
+  font-family: Montserrat;
+  color: rgba(64, 64, 64, 0.3019607843);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.94px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-top: 8px;
+}
+main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form3 {
+  margin-top: 18px;
+}
+main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form3 .modal1__container--form3--input {
+  display: flex;
+  flex-direction: row;
+  margin-top: 8px;
+  align-items: center;
+  max-width: 513px;
+  background-color: white;
+  border: 1.5px solid rgba(17, 17, 17, 0.0509803922);
+  border-radius: 13px;
+  padding-left: 24px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form3 .modal1__container--form3--input .modal1__container--form3--input--form3 {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.94px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(64, 64, 64, 0.3019607843);
+  border: none;
+  border-left: 1.5px solid rgba(17, 17, 17, 0.0509803922);
+  outline: none;
+  padding-left: 25px;
+}
+main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form3 .modal1__container--form3--input .modal1__container--form3--input--span {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.94px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #000000;
+  padding-left: 18px;
+  padding-right: 32px;
+}
+main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form3 .modal1__container--form3--text3 {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #000000;
+}
+main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form4 {
+  margin-top: 18px;
+}
+main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form4 .modal1__container--form4--text4 {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #000000;
+}
+main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form4 .modal1__container--form4--input {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 513px;
+  border: 1.5px solid rgba(17, 17, 17, 0.0509803922);
+  background-color: white;
+  padding-left: 24px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  border-radius: 13px;
+}
+main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form4 .modal1__container--form4--input .modal1__container--form4--input--form4 {
+  outline: none;
+  border: none;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.94px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(64, 64, 64, 0.3019607843);
+}
+main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form4 .modal1__container--form4--input .modal1__container--form4--input--svg {
+  padding-left: 215px;
+}
+main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form5 {
+  margin-top: 18px;
+}
+main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form5 .modal1__container--form5--text5 {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #000000;
+}
+main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form5 .modal1__container--form5--input--form5 {
+  margin-top: 8px;
+  border: 1.5px solid rgba(17, 17, 17, 0.0509803922);
+  padding-left: 24px;
+  padding-top: 22px;
+  padding-bottom: 93px;
+  padding-right: 272px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.94px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(64, 64, 64, 0.3019607843);
+  border-radius: 13px;
 }
 main .background .backround__container .background__container--box .modal1 .modal1__cards {
   max-width: 513px;
@@ -135,7 +315,7 @@ main .background .backround__container .background__container--box .modal1 .moda
 }
 main .background .backround__container .background__container--box .modal1 .modal1__cards .modal1__cards--card {
   max-width: 160px;
-  border: 1px solid rgba(17, 17, 17, 0.1019607843);
+  border: 1.5px solid rgba(17, 17, 17, 0.1019607843);
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -170,7 +350,6 @@ main .background .backround__container .background__container--box .modal1 .moda
   justify-content: space-between;
   max-width: 122px;
   margin: 0 auto;
-  padding-top: 48px;
 }
 main .background .backround__container .background__container--box .modal1 .modal1__titles .modal1__titles--title1 {
   font-family: Montserrat;
@@ -204,8 +383,8 @@ main .background .backround__container .background__container--box .modal1 .moda
   line-height: 17.07px;
   text-align: left;
   color: white;
-  margin-left: 55px;
   margin-top: 18px;
+  margin-bottom: 48px;
 }
 main .background .backround__container .background__container--box .is-hidden {
   opacity: 0;
