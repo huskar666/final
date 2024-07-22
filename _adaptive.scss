@@ -1,5 +1,6 @@
 @media (max-width: 1300px){
     main{
+       
         .background{
             background: url('../img/background-tablet.png') !important;
             max-width: 704px !important;
@@ -7,10 +8,11 @@
                 max-width: 624px !important;
                 & .background__container--box{
                     margin-top: 671px !important;
+                    & .background__container--box--footer{
+                        width: 624px;
+                    }
                 }
-                & .background__container--scroll{
-                    margin-top: 765px !important;
-                }
+              
             }
         }
         .prices{
@@ -43,27 +45,63 @@
             max-width: 335px !important;
             & .backround__container{
                 max-width: 295px !important;
+                & .background__container--scroll{
+                    margin-bottom: 0px !important;
+                    max-width: 107px !important;
+                    & .background__container--scroll--svg2{
+                        display: block !important;
+                    }
+                    & .background__container--scroll--button{
+                        width: 28px !important;
+                        height: 28px !important;
+                    }
+                    & .background__container--scroll--svg1{
+                        display: none;
+                    }
+                   & .background__container--scroll--text{
+                        font-family: Montserrat;
+                        font-size: 12px;
+                        font-weight: 500;
+                        line-height: 14px;
+                        letter-spacing: -0.03em;
+                        text-align: left;
+                        
+                    }
+                }
                 & .background__container--box{
                     margin-top: 395px !important;
+                    & .background__container--box--footer{
+                        flex-direction: column;
+                       
+                        align-items: start;
+                        margin-bottom: 20px !important;
+                    }
 
                     & .background__container--box--text{
                         font-size: 20px !important;
                         line-height: 24px !important;
-                    }
-                    & .background__container--box--buttons{
                         max-width: 299px !important;
-                        & .background__container--box--buttons--button1{
+ 
+                    }
+                    & .background__container--box--footer--buttons{
+                        max-width: 295px !important ;
+                        padding-bottom: 32px !important;
+
+                        & .background__container--box--footer--buttons--button1{
                             padding-top: 12px !important;
                             padding-bottom: 12px !important;
                             padding-left: 28px !important;
                             padding-right: 28px !important;
-                        }
+                        }   
+                        & .background__container--box--footer--buttons--button2{
+                            padding-top: 12px !important;
+                            padding-bottom: 12px !important;
+                            padding-left: 28px !important;
+                            padding-right: 28px !important;
+                        }   
                     }
                 }
-                & .background__container--scroll{
-                    margin-top: 765px !important;
-                    display: none !important;
-                }
+             
             }
         }
         .prices{

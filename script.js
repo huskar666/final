@@ -15,3 +15,4 @@
         modal.classList.add('is-hidden');
     });
     })();
+    
