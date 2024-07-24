@@ -327,7 +327,12 @@ main{
                         color: white;
                         margin-top: 18px;
                         margin-bottom: 48px;
-                    }
+                        transition-duration: 1s;
+
+                        }
+                        & .modal1__container--button:hover{
+                                transform: scale(1.1);
+                            }
                     
                 }
 
@@ -377,6 +382,13 @@ main{
                         border: none;
                         border-radius: 100px;
                         color: white;
+                        transition-duration: 1s;
+                        
+                    }
+                    & .background__container--box--footer--buttons--button1:hover{
+                        color: #FD9222;
+                        background-color: #FCF1E0;
+                        transform: scale(1.1);
                     }
                     & .background__container--box--footer--buttons--button2{
                         font-family: Montserrat;
@@ -392,6 +404,13 @@ main{
                         border: 1px solid white;
                         border-radius: 100px;
                         color: white;
+                        transition-duration: 1s;
+                    }
+                    & .background__container--box--footer--buttons--button2:hover{
+                        background-color: white;
+                        border-color: #FD9222;
+                        color: #FD9222;
+                        transform: scale(1.1);
                     }
                 }
             }
@@ -412,6 +431,13 @@ main{
 
                 & .background__container--scroll--svg2{
                     display: none;
+
+                }
+                & .background__container--scroll--svg1{
+                    fill: #FD9222;
+                }
+                & .background__container--scroll--svg1:hover{
+                    fill: white;
                 }
 
                 & .background__container--scroll--button{
@@ -421,6 +447,14 @@ main{
                     background-color: white;
                     border: none;
 
+                }
+                & .background__container--scroll--text:hover{
+                    color: #FD9222;
+
+                }
+                & .background__container--scroll--button:hover{
+                    background-color: #FD9222;
+                    
                 }
             }
         }
