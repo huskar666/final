@@ -139,29 +139,33 @@ main .background .backround__container .background__container--box .background__
   color: white;
   max-width: 484px;
 }
-main .background .backround__container .background__container--box .modal1 {
+main .background .backround__container .modal1 {
+  background-color: white;
+  max-width: 609px;
   width: 100%;
-  background-color: #FAFAFA;
-  opacity: 1;
-  border-radius: 10px;
+  border-radius: 15px;
+  margin: 0 auto;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  display: none;
 }
-main .background .backround__container .background__container--box .modal1 .modal1-krestik {
-  margin-left: 557px;
-  margin-top: 10px;
-}
-main .background .backround__container .background__container--box .modal1 .modal1__container {
+main .background .backround__container .modal1 .modal1__container {
   max-width: 513px;
   margin: 0 auto;
 }
-main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form1 {
+main .background .backround__container .modal1 .modal1__container .modal1__container--form1 {
   margin-top: 40px;
 }
-main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form1 .modal1__container--names {
+main .background .backround__container .modal1 .modal1__container .modal1__container--form1 .modal1__container--names {
   display: flex;
   justify-content: space-between;
   margin-top: 8px;
 }
-main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form1 .modal1__container--names .modal1__container--names--form1 {
+main .background .backround__container .modal1 .modal1__container .modal1__container--form1 .modal1__container--names .modal1__container--names--form1 {
   padding-top: 22px;
   padding-bottom: 22px;
   padding-left: 24px;
@@ -175,7 +179,7 @@ main .background .backround__container .background__container--box .modal1 .moda
   letter-spacing: -0.02em;
   text-align: left;
 }
-main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form1 .modal1__container--form1--text1 {
+main .background .backround__container .modal1 .modal1__container .modal1__container--form1 .modal1__container--form1--text1 {
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 500;
@@ -184,10 +188,10 @@ main .background .backround__container .background__container--box .modal1 .moda
   text-align: left;
   color: #000000;
 }
-main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form2 {
+main .background .backround__container .modal1 .modal1__container .modal1__container--form2 {
   margin-top: 18px;
 }
-main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form2 .modal1__container--form2--text2 {
+main .background .backround__container .modal1 .modal1__container .modal1__container--form2 .modal1__container--form2--text2 {
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 500;
@@ -196,7 +200,7 @@ main .background .backround__container .background__container--box .modal1 .moda
   text-align: left;
   color: #000000;
 }
-main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form2 .modal1__container--form2--form2 {
+main .background .backround__container .modal1 .modal1__container .modal1__container--form2 .modal1__container--form2--form2 {
   padding-top: 22px;
   padding-bottom: 22px;
   padding-left: 24px;
@@ -212,10 +216,10 @@ main .background .backround__container .background__container--box .modal1 .moda
   text-align: left;
   margin-top: 8px;
 }
-main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form3 {
+main .background .backround__container .modal1 .modal1__container .modal1__container--form3 {
   margin-top: 18px;
 }
-main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form3 .modal1__container--form3--input {
+main .background .backround__container .modal1 .modal1__container .modal1__container--form3 .modal1__container--form3--input {
   display: flex;
   flex-direction: row;
   margin-top: 8px;
@@ -228,7 +232,7 @@ main .background .backround__container .background__container--box .modal1 .moda
   padding-top: 22px;
   padding-bottom: 22px;
 }
-main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form3 .modal1__container--form3--input .modal1__container--form3--input--form3 {
+main .background .backround__container .modal1 .modal1__container .modal1__container--form3 .modal1__container--form3--input .modal1__container--form3--input--form3 {
   font-family: Montserrat;
   font-size: 18px;
   font-weight: 400;
@@ -241,7 +245,7 @@ main .background .backround__container .background__container--box .modal1 .moda
   outline: none;
   padding-left: 25px;
 }
-main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form3 .modal1__container--form3--input .modal1__container--form3--input--span {
+main .background .backround__container .modal1 .modal1__container .modal1__container--form3 .modal1__container--form3--input .modal1__container--form3--input--span {
   font-family: Montserrat;
   font-size: 18px;
   font-weight: 500;
@@ -252,7 +256,7 @@ main .background .backround__container .background__container--box .modal1 .moda
   padding-left: 18px;
   padding-right: 32px;
 }
-main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form3 .modal1__container--form3--text3 {
+main .background .backround__container .modal1 .modal1__container .modal1__container--form3 .modal1__container--form3--text3 {
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 500;
@@ -261,10 +265,10 @@ main .background .backround__container .background__container--box .modal1 .moda
   text-align: left;
   color: #000000;
 }
-main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form4 {
+main .background .backround__container .modal1 .modal1__container .modal1__container--form4 {
   margin-top: 18px;
 }
-main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form4 .modal1__container--form4--text4 {
+main .background .backround__container .modal1 .modal1__container .modal1__container--form4 .modal1__container--form4--text4 {
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 500;
@@ -273,7 +277,7 @@ main .background .backround__container .background__container--box .modal1 .moda
   text-align: left;
   color: #000000;
 }
-main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form4 .modal1__container--form4--input {
+main .background .backround__container .modal1 .modal1__container .modal1__container--form4 .modal1__container--form4--input {
   margin-top: 8px;
   display: flex;
   flex-direction: row;
@@ -286,7 +290,7 @@ main .background .backround__container .background__container--box .modal1 .moda
   padding-bottom: 22px;
   border-radius: 13px;
 }
-main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form4 .modal1__container--form4--input .modal1__container--form4--input--form4 {
+main .background .backround__container .modal1 .modal1__container .modal1__container--form4 .modal1__container--form4--input .modal1__container--form4--input--form4 {
   outline: none;
   border: none;
   font-family: Montserrat;
@@ -297,13 +301,13 @@ main .background .backround__container .background__container--box .modal1 .moda
   text-align: left;
   color: rgba(64, 64, 64, 0.3019607843);
 }
-main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form4 .modal1__container--form4--input .modal1__container--form4--input--svg {
+main .background .backround__container .modal1 .modal1__container .modal1__container--form4 .modal1__container--form4--input .modal1__container--form4--input--svg {
   padding-left: 215px;
 }
-main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form5 {
+main .background .backround__container .modal1 .modal1__container .modal1__container--form5 {
   margin-top: 18px;
 }
-main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form5 .modal1__container--form5--text5 {
+main .background .backround__container .modal1 .modal1__container .modal1__container--form5 .modal1__container--form5--text5 {
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 500;
@@ -312,7 +316,7 @@ main .background .backround__container .background__container--box .modal1 .moda
   text-align: left;
   color: #000000;
 }
-main .background .backround__container .background__container--box .modal1 .modal1__container .modal1__container--form5 .modal1__container--form5--input--form5 {
+main .background .backround__container .modal1 .modal1__container .modal1__container--form5 .modal1__container--form5--input--form5 {
   margin-top: 8px;
   border: 1.5px solid rgba(17, 17, 17, 0.0509803922);
   padding-left: 24px;
@@ -328,7 +332,7 @@ main .background .backround__container .background__container--box .modal1 .moda
   color: rgba(64, 64, 64, 0.3019607843);
   border-radius: 13px;
 }
-main .background .backround__container .background__container--box .modal1 .modal1__cards {
+main .background .backround__container .modal1 .modal1__cards {
   max-width: 513px;
   width: 100%;
   display: flex;
@@ -336,7 +340,7 @@ main .background .backround__container .background__container--box .modal1 .moda
   margin: 0 auto;
   padding-top: 32px;
 }
-main .background .backround__container .background__container--box .modal1 .modal1__cards .modal1__cards--card {
+main .background .backround__container .modal1 .modal1__cards .modal1__cards--card {
   max-width: 160px;
   border: 1.5px solid rgba(17, 17, 17, 0.1019607843);
   border-radius: 15px;
@@ -344,14 +348,14 @@ main .background .backround__container .background__container--box .modal1 .moda
   flex-direction: column;
   background-color: #FFFFFF;
 }
-main .background .backround__container .background__container--box .modal1 .modal1__cards .modal1__cards--card .modal1__cards--card--photo {
+main .background .backround__container .modal1 .modal1__cards .modal1__cards--card .modal1__cards--card--photo {
   margin: 0 auto;
   padding-top: 24px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 14px;
 }
-main .background .backround__container .background__container--box .modal1 .modal1__cards .modal1__cards--card .modal1__cards--card--button {
+main .background .backround__container .modal1 .modal1__cards .modal1__cards--card .modal1__cards--card--button {
   margin: 0 auto;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -368,13 +372,14 @@ main .background .backround__container .background__container--box .modal1 .moda
   color: #111111;
   margin-bottom: 18px;
 }
-main .background .backround__container .background__container--box .modal1 .modal1__titles {
+main .background .backround__container .modal1 .modal1__titles {
   display: flex;
   justify-content: space-between;
   max-width: 122px;
-  margin: 0 auto;
+  margin-top: 48px;
+  margin-left: 243px;
 }
-main .background .backround__container .background__container--box .modal1 .modal1__titles .modal1__titles--title1 {
+main .background .backround__container .modal1 .modal1__titles .modal1__titles--title1 {
   font-family: Montserrat;
   font-size: 24px;
   font-weight: 600;
@@ -383,7 +388,7 @@ main .background .backround__container .background__container--box .modal1 .moda
   text-align: center;
   color: #FD9222;
 }
-main .background .backround__container .background__container--box .modal1 .modal1__titles .modal1__titles--title2 {
+main .background .backround__container .modal1 .modal1__titles .modal1__titles--title2 {
   font-family: Montserrat;
   font-size: 24px;
   font-weight: 600;
@@ -392,7 +397,7 @@ main .background .backround__container .background__container--box .modal1 .moda
   text-align: center;
   color: #1E1823;
 }
-main .background .backround__container .background__container--box .modal1 .modal1__container--button {
+main .background .backround__container .modal1 .modal1__container--button {
   padding-top: 14px;
   padding-bottom: 14px;
   padding-left: 40px;
@@ -410,22 +415,70 @@ main .background .backround__container .background__container--box .modal1 .moda
   margin-bottom: 48px;
   transition-duration: 1s;
 }
-main .background .backround__container .background__container--box .modal1 .modal1__container--button:hover {
+main .background .backround__container .modal1 .modal1__container--button:hover {
   transform: scale(1.1);
 }
-main .background .backround__container .background__container--box .is-hidden {
-  opacity: 0;
-  pointer-events: none;
-}
-main .background .backround__container .background__container--box .modal {
+main .background .backround__container .modal222 {
+  background-color: #FD9222;
+  max-width: 516px;
+  width: 100%;
+  border-radius: 15px;
+  margin: 0 auto;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
   position: absolute;
   left: 50%;
   top: 50%;
-  background-color: white;
-  padding: 10px;
-  min-width: 609px;
-  transform: translate(-50%, -50%);
+  display: none;
+}
+main .background .backround__container .modal222 .modal222__img {
+  position: absolute;
+  top: 90px;
   border-radius: 15px;
+}
+main .background .backround__container .modal222 .modal222__svg {
+  margin-left: 460px;
+  margin-top: 32px;
+}
+main .background .backround__container .modal222 .modal222__texts {
+  max-width: 309px;
+  width: 100%;
+  margin-top: 90px;
+  margin-left: 163px;
+  padding-bottom: 134px;
+}
+main .background .backround__container .modal222 .modal222__texts .modal222__texts--title {
+  color: #FCF1E0;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+main .background .backround__container .modal222 .modal222__texts .modal222__texts--text {
+  color: #FCF1E0;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  padding-top: 8px;
+}
+main .background .backround__container .close {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin-right: 31px;
+  margin-top: 20px;
+}
+main .background .backround__container .close:hover,
+main .background .backround__container .close:focus {
+  color: #FD9222;
+  text-decoration: none;
+  cursor: pointer;
 }
 main .background .backround__container .background__container--box--footer {
   display: flex;
