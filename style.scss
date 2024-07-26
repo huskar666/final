@@ -88,6 +88,21 @@ main{
                                 letter-spacing: -0.02em;
                                 text-align: left;
                             }
+                             
+                            & .modal1__container--names--form2{
+                                padding-top: 22px;
+                                padding-bottom: 22px;
+                                padding-left: 24px;
+                                border: 1.5px solid #1111110D;
+                                border-radius: 13px;
+                                font-family: Montserrat;
+                                color: #4040404D;
+                                font-size: 18px;
+                                font-weight: 400;
+                                line-height: 21.94px;
+                                letter-spacing: -0.02em;
+                                text-align: left;
+                            }
                         }
                        & .modal1__container--form1--text1{
                             font-family: Montserrat;
@@ -253,6 +268,7 @@ main{
                             border-radius: 13px;
                         }
                     }
+                  
                 }
                 & .modal1__cards{
                     max-width: 513px;
@@ -262,13 +278,34 @@ main{
                     margin: 0 auto;
                     padding-top: 32px;
 
-                    & .modal1__cards--card{
+                    & .modal1__cards--svg{
+                        display: none;
+                    }
+
+                    & .modal1__cards--card1{
                         max-width: 160px;
                         border: 1.5px solid #1111111A;
                         border-radius: 15px;
                         display: flex;
                         flex-direction: column;
                         background-color: #FFFFFF;
+                    }
+                        & .modal1__cards--card2{
+                            max-width: 160px;
+                            border: 1.5px solid #1111111A;
+                            border-radius: 15px;
+                            display: flex;
+                            flex-direction: column;
+                            background-color: #FFFFFF;
+                        }
+                            & .modal1__cards--card3{
+                                max-width: 160px;
+                                border: 1.5px solid #1111111A;
+                                border-radius: 15px;
+                                display: flex;
+                                flex-direction: column;
+                                background-color: #FFFFFF;
+                            }
                         & .modal1__cards--card--photo{
                             margin: 0 auto;
                             padding-top: 24px;
@@ -343,6 +380,7 @@ main{
                     & .modal1__container--button:hover{
                             transform: scale(1.1);
                         }
+                        
 
             }
 
@@ -358,16 +396,21 @@ main{
                 left: 50%;
                 top: 50%;
                 display: none;
+                
             
                 & .modal222__img{
                     position: absolute;
                     top: 90px;
                     border-radius: 15px;
                 }
+                & .modal222__img--phone{
+                    display: none;
+                }
                 & .modal222__svg{
                     margin-left: 460px;
                     margin-top: 32px;
                 }
+
                 & .modal222__texts{
                     max-width: 309px;
                     width: 100%;
@@ -613,7 +656,7 @@ main{
         }
     }
     
-}
+
 
 
 
