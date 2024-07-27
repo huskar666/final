@@ -10,10 +10,156 @@ body {
     overflow-x: hidden;
 }
 
-header{
-
-
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
 }
+
+.logo {
+    a {
+        text-decoration: none;
+        font-size: 24px;
+        color: black;
+    }
+}
+
+.nav-links {
+    ul {
+        display: flex;
+        list-style-type: none;
+
+
+        li {
+            margin: 0 10px;
+
+            a {
+                text-decoration: none;
+                color: black;
+                text-decoration: none;
+                background-image: linear-gradient(currentColor, currentColor);
+                background-position: 0% 100%;
+                background-repeat: no-repeat;
+                background-size: 0% 2px;
+                transition: background-size .3s;
+                font-family: Montserrat;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 16px;
+                letter-spacing: -0.02em;
+                text-align: left;
+
+            }
+            
+            a:hover {
+                color: #FD9222;
+                background-size: 100% 2px;
+                padding: 8px;
+            }
+        }
+    }
+}
+
+.social-icons {
+    a {
+        margin: 0 10px;
+
+        img {
+            width: 24px;
+            height: 24px;
+        }
+        img:hover{
+            color: #FD9222;
+        }
+      
+    }
+    
+}
+
+.burger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+
+    span {
+        width: 25px;
+        height: 3px;
+        background-color: black;
+        margin: 4px 0;
+        transition: 0.4s;
+    }
+}
+
+.nav-menu {
+    position: fixed;
+    height: 100%;
+    width: 0;
+    top: 0;
+    right: 0;
+    background-color: #1E1823;
+    overflow-x: hidden;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+            margin: 20px 0;
+
+            a {
+                text-decoration: none;
+                color: white;
+                text-decoration: none;
+                background-image: linear-gradient(currentColor, currentColor);
+                background-position: 0% 100%;
+                background-repeat: no-repeat;
+                background-size: 0% 2px;
+                transition: background-size .3s;
+                font-family: Montserrat;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 16px;
+                letter-spacing: -0.02em;
+                text-align: left;
+            }
+            a:hover{
+                color: #FD9222;
+                
+            }
+        }
+    }
+
+    .close-menu {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+
+        span {
+            font-size: 36px;
+            color: white;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .nav-links {
+        display: none;
+    }
+
+    .burger-menu {
+        display: flex;
+    }
+}
+
 main{
     .background{
         background: url('../img/background.png');
@@ -59,7 +205,7 @@ main{
                 border-radius: 15px;
                 position: absolute;
                 left: 50%;
-                top: 50%;
+                top: 57%;
                 z-index: 1;
                 display: none;
 
@@ -529,37 +675,49 @@ main{
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                max-width: 130px;
+                max-width: 150px;
                 width: 100%;
                 margin-bottom: 10px;    
-
-                & .background__container--scroll--svg2{
-                    display: none;
-
-                }
-                & .background__container--scroll--svg1{
-                    fill: #FD9222;
-                }
-                & .background__container--scroll--svg1:hover{
-                    fill: white;
-                }
-
-                & .background__container--scroll--button{
-                    width: 38px;
-                    height: 38px;
-                    border-radius: 90px;
-                    background-color: white;
+                
+                .scroll-button {
+                    background-color: orange;
+                    color: white;
                     border: none;
+                    padding: 14px 20px;
+                    font-size: 16px;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50px;
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 18px;
+                    letter-spacing: -0.03em;
+                    text-align: left;
+                    transition-duration: 1s;
+                  
+                    &::after {
+                      content: '▼';
+                      margin-left: 10px;
+                      display: inline-block;
+                      transition: transform 0.3s;
+                    }
+                  
+                    &:hover {
+                      background-color: white;
+                      color: orange;
+                      border: 1px solid #FD9222;
+                      transform: scale(1.1);
+                      
+                      &::after {
+                        transform: rotate(180deg);
+                      }
+                    }
+                }
 
-                }
-                & .background__container--scroll--text:hover{
-                    color: #FD9222;
-
-                }
-                & .background__container--scroll--button:hover{
-                    background-color: #FD9222;
-                    
-                }
+              
             }
         }
         
@@ -671,16 +829,3 @@ main{
 
 
 
-
-a {
-    text-decoration: none;
-    background-image: linear-gradient(currentColor, currentColor);
-    background-position: 0% 100%;
-    background-repeat: no-repeat;
-    background-size: 0% 2px;
-    transition: background-size .3s;
-}
-
-a:hover {
-    background-size: 100% 2px;
-}
