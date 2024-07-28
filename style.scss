@@ -14,8 +14,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding-top: 24px;
+    padding-bottom: 32px;
     background-color: white;
+    max-width: 1136px;
+    margin: 0 auto;
 }
 
 .logo {
@@ -151,12 +154,17 @@ body {
 }
 
 @media (max-width: 900px) {
+    .container{
+        max-width: 704px !important;
+    }
+
     .nav-links {
         display: none;
     }
 
     .burger-menu {
         display: flex;
+        
     }
 }
 
@@ -680,7 +688,7 @@ main{
                 margin-bottom: 10px;    
                 
                 .scroll-button {
-                    background-color: orange;
+                    background-color: #FD9222;
                     color: white;
                     border: none;
                     padding: 14px 20px;

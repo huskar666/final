@@ -35,12 +35,30 @@
   }
 }
 @media (max-width: 768px) {
+  .background__container--scroll {
+    max-width: 299px !important;
+  }
+  .background__container--scroll .scroll-button {
+    font-size: 12px !important;
+    line-height: 14px !important;
+    margin: 0 auto;
+    border: none !important;
+    background-color: rgba(28, 28, 28, 0) !important;
+    padding: 0 !important;
+  }
+  header {
+    max-width: 335px !important;
+    margin: 0 auto;
+  }
   main .background {
     background: url("../img/background-phone.png") !important;
     max-width: 335px !important;
   }
   main .background .backround__container {
     max-width: 295px !important;
+  }
+  main .background .backround__container .background__container--box {
+    margin-top: 650px !important;
   }
   main .background .backround__container .modal1 {
     max-width: 311px !important;
@@ -240,28 +258,6 @@
     font-size: 14px;
     line-height: 16px;
   }
-  main .background .backround__container .background__container--scroll {
-    margin-bottom: 0px !important;
-    max-width: 107px !important;
-  }
-  main .background .backround__container .background__container--scroll .background__container--scroll--svg2 {
-    display: block !important;
-  }
-  main .background .backround__container .background__container--scroll .background__container--scroll--button {
-    width: 28px !important;
-    height: 28px !important;
-  }
-  main .background .backround__container .background__container--scroll .background__container--scroll--svg1 {
-    display: none;
-  }
-  main .background .backround__container .background__container--scroll .background__container--scroll--text {
-    font-family: Montserrat;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 14px;
-    letter-spacing: -0.03em;
-    text-align: left;
-  }
   main .background .backround__container .background__container--box {
     margin-top: 395px !important;
   }
@@ -316,8 +312,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding-top: 24px;
+  padding-bottom: 32px;
   background-color: white;
+  max-width: 1136px;
+  margin: 0 auto;
 }
 
 .logo a {
@@ -432,6 +431,9 @@ body {
 }
 
 @media (max-width: 900px) {
+  .container {
+    max-width: 704px !important;
+  }
   .nav-links {
     display: none;
   }
@@ -915,7 +917,7 @@ main .background .background__container--scroll {
   margin-bottom: 10px;
 }
 main .background .background__container--scroll .scroll-button {
-  background-color: orange;
+  background-color: #FD9222;
   color: white;
   border: none;
   padding: 14px 20px;

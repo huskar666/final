@@ -40,6 +40,25 @@
     }
 }
 @media (max-width: 768px){
+    .background__container--scroll{
+         max-width: 299px !important;
+        & .scroll-button{
+            font-size: 12px !important;
+            line-height: 14px !important;
+            margin: 0 auto;
+            border: none !important;
+            background-color: rgba(28,28,28,0) !important;
+            padding: 0 !important;
+        }
+    }
+
+    header{
+        max-width: 335px !important;
+        margin: 0 auto;
+    }
+    
+
+
     main{
         .background{
             background: url('../img/background-phone.png') !important;
@@ -47,6 +66,9 @@
             & .backround__container{
                 max-width: 295px !important;
 
+                & .background__container--box{
+                    margin-top: 650px !important;
+                }
                 & .modal1{
                     max-width: 311px !important;
                     & .modal1__titles{
@@ -269,29 +291,6 @@
                     }
                 }
 
-                & .background__container--scroll{
-                    margin-bottom: 0px !important;
-                    max-width: 107px !important;
-                    & .background__container--scroll--svg2{
-                        display: block !important;
-                    }
-                    & .background__container--scroll--button{
-                        width: 28px !important;
-                        height: 28px !important;
-                    }
-                    & .background__container--scroll--svg1{
-                        display: none;
-                    }
-                   & .background__container--scroll--text{
-                        font-family: Montserrat;
-                        font-size: 12px;
-                        font-weight: 500;
-                        line-height: 14px;
-                        letter-spacing: -0.03em;
-                        text-align: left;
-                        
-                    }
-                }
                 & .background__container--box{
                     margin-top: 395px !important;
                     & .background__container--box--footer{
