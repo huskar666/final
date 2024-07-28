@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             });
         });
         document.getElementById('burger-menu').addEventListener('click', function () {
-            document.getElementById('nav-menu').style.width = '70%';
+            document.getElementById('nav-menu').style.width = '50%';
         });
         
         document.getElementById('close-menu').addEventListener('click', function () {
