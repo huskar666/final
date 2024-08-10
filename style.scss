@@ -174,19 +174,18 @@ main{
         max-width: 1136px;
         margin: 0 auto;
         border-radius: 30px;
-        
+
     
         & .backround__container{
             width: 100%;
-            max-width: 1056px;
-            display: flex;
-            justify-content: space-between;
-            margin: 0 auto;
-            
-          
+                max-width: 1056px;
+                display: flex;
+                justify-content: space-between;
+                margin: 0 auto;
 
             & .background__container--box{
                 margin-top: 381px;
+               
 
                 & .background__container--box--text{
                     font-family: Montserrat;
@@ -198,7 +197,9 @@ main{
                     color: white;
                     max-width: 484px;
                 }
-             
+                & .background__container--box--text1{
+                    display: none;
+                }
 
 
             }

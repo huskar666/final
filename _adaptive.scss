@@ -67,6 +67,21 @@
 
                 & .background__container--box{
                     margin-top: 650px !important;
+
+                    & .background__container--box--text{
+                        display: none;
+                    }
+                    & .background__container--box--text1{
+                        display: block !important   ;
+                        font-family: Montserrat;
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 24px;
+                        letter-spacing: -0.03em;
+                        text-align: left;
+                        color: white;
+                        max-width: 299px;
+                    }
                 }
                 & .modal1{
                     max-width: 311px !important;
